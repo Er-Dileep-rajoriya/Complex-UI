@@ -1,0 +1,105 @@
+.inner-div {
+  background-color: #97999b;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-text {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* style for footer section */
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.outer-div-second-last {
+  background-color: #f8f9fa;
+}
+
+.footer-container {
+  width: 88%;
+  margin: 20px auto;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+/* Extra css */
+/*flex section*/
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  padding-top: 55px;
+  flex-wrap: wrap;
+}
+
+.item-img img {
+  width: 400px;
+  padding-bottom: 20px;
+  height: 245px;
+}
+
+.item-content {
+  width: 400px;
+}
+
+/*grid section*/
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: repeat(6, 15.5%);
+  gap: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.matrix1 {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+
+.matrix4 {
+  grid-column: 5/7;
+}
+
+.matrix7 {
+  grid-column: 5/7;
+}
+
+.matrix8 {
+  grid-row: 3/5;
+  grid-column: 1/3;
+}
+
+.matrix9 {
+  grid-row: 3/5;
+  grid-column: 3/7;
+}
+
+.card {
+  box-shadow: 10px 10px 10px 0 gray;
+}
+
+/*Media quaries*/
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
